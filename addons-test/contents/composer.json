@@ -1,21 +1,14 @@
 {
     "name": "yxit/addons-test",
-    "description": "测试包",
+    "description": "test composer",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "yx",
             "email": "441053464@qq.com"
         }
     ],
-    "license": "MIT",
     "minimum-stability": "dev",
-    "require": {
-        "php": ">=7.0.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "AddonsTest\\": "src/"
-          }
-    }
+    "require": {}
 }
